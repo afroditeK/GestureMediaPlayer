@@ -1,0 +1,20 @@
+# Python cache και bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# OS αρχεία
+.DS_Store
+
+# Logs
+*.log
+*.tmp
+*.swp
