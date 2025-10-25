@@ -23,13 +23,18 @@ GestureMediaPlayer/
 ```
 **Note:** For the music type selection to work, you must organize your mp3 files in the appropriate subfolders under `media/` as shown above.
 
-## Requirements
 
+## How to Run
+
+1. **Make sure you have Python 3.7 or higher.**  
+   - If `python` does not point to Python 3, use `python3`.
+
+2. Install the required libraries:
 ```bash
 pip install opencv-python mediapipe pygame pillow numpy
 ```
-## Run the app
 
+3. Run the app
 ```bash
-python main.py
+python gesture_media_player.py #or python3 
 ```
